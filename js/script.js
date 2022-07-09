@@ -32,3 +32,12 @@ new Swiper('.swiper-container',{
 		}
 	},
 });
+
+new Swiper('.swiper',{
+	slidesPerView: 3,
+	initialSlide: 2,
+	navigation:{
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev'
+	},
+});
