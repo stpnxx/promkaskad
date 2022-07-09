@@ -224,7 +224,7 @@ body {
 @media (max-width: 890px) {
   .header .menu__icon span {
     left: 0;
-    top: 50%;
+    top: 54%;
     -webkit-transform: translate(0px, -50%);
             transform: translate(0px, -50%);
     position: absolute;
@@ -1760,8 +1760,8 @@ body.active .menu__body {
 
 body.active .menu__icon::before {
   background: #fff;
-  -webkit-transform: rotate(-39deg);
-          transform: rotate(-39deg);
+  -webkit-transform: rotate(-41deg);
+          transform: rotate(-41deg);
   bottom: 7px;
 }
 
@@ -1771,8 +1771,8 @@ body.active .menu__icon::after {
 
 body.active .menu__icon > span {
   background: #fff;
-  -webkit-transform: rotate(42deg);
-          transform: rotate(42deg);
+  -webkit-transform: rotate(44deg);
+          transform: rotate(44deg);
 }
 
 /*******************************************/
