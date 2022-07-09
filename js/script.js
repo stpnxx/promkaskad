@@ -16,3 +16,19 @@ function click(){
 }
 
 icon.onclick = click;
+
+new Swiper('.swiper-container',{
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	spaceBetween: 30,
+	breakpoints: {
+		320:{
+			slidesPerView: 1,
+		},
+		850:{
+			slidesPerView: 2,
+		}
+	},
+});
