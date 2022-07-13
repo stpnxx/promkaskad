@@ -7,10 +7,10 @@ let i = 1;
 function click(){
 	body.classList.toggle('active');
 	if (i % 2 ==0){
-		source.setAttribute('srcset', 'img/header/header6.png');
+		source.setAttribute('srcset', 'img/header/header6.svg');
 	}
 	else{
-		source.setAttribute('srcset', 'img/header/header5.png');
+		source.setAttribute('srcset', 'img/header/header5.svg');
 	}
 	i++;
 }
